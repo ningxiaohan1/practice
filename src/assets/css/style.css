@@ -1,0 +1,46 @@
+/*全局样式*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+}
+
+.navItem {
+    width: 88px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.navItem .active {
+    font-weight: 900;
+}
+.nav .bar {
+    position: absolute;
+    bottom: 0px;
+    width: 44px;
+    height: 4px;
+    background-color: orangered;
+    transition: .8s ease;
+}
+
+.content {
+    display: flex;
+    width: 1500px;
+    height: calc(100vh - 45px);
+    transition: .8s ease;
+}
+
+.contentItem {
+    width: 375px;
+}
+
+
+
+

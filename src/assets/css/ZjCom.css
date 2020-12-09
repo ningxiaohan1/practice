@@ -1,0 +1,28 @@
+/*ZjCom直击现场组件*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.new .banner img {
+    width: 100%;
+}
+
+.new .banner h1 {
+    font-size: 18px;
+    padding: 0 15px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.newContent {
+    display: flex;
+    height: 1100px;
+}
+
+.newContent .line {
+    width: 2px;
+    background-color: #dddddd;
+    margin: 0 25px;
+}
